@@ -17,5 +17,18 @@ The dataset provided has a vast quantity of features to examine/analyze. We will
 Standard application data is provided; Applicant background, credit history, payment history.
 Our Training dataset contains 300k entries labeled with a target score, which we will split into training and validation.
 
-Initially, we plan on training our model with basic applicant background. We expect this to be useful for obvious rejections. Beyond that, it will be important to analyze historical data of the applicant for better results. 
+Initially, we plan on training our model with basic applicant background. We expect this to be useful for obvious rejections. Beyond that, it will be important to analyze historical data of the applicant for better results.
+
+## Notebooks
+
+- [tranche1_lgbm.ipynb](./tranche1_lgbm.ipynb): LGBM experiments and model training.
+- [NeuralNet.ipynb](./NeuralNet.ipynb): Exploration of neural network models.
+- [final_features.ipynb](./final_features.ipynb): Final feature engineering and model evaluation.
+- [featureEngineering.ipynb](./featureEngineering.ipynb): Creation and exploration of feature relationships.
+- [Bayesian Hyperparameter Search.ipynb](./Bayesian%20Hyperparameter%20Search.ipynb): Hyperparameter tuning using Bayesian optimization.
+
+## Slides & Report
+
+- [Project Milestone 1.md](./Project%20Milestone%201.md): Overview of project milestones and progress.
+- [Milestone 4.pdf](./Milestone%204.pdf): Detailed report and slides covering key findings.
 
